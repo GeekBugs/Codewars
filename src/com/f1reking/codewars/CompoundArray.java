@@ -3,7 +3,13 @@ package com.f1reking.codewars;
 import java.util.Arrays;
 
 /**
- * Created by HuangYH on 2016/5/2.
+ * Created by F1ReKing on 2016/5/2.
+ */
+
+/**
+ * Description:
+ *
+ * You have to create a method "compoundArray" which should take as input two int arrays of different *length and return one int array with numbers of both arrays shuffled one by one. Example: Input - *{1,2,3,4,5,6} and {9,8,7,6} Output - {1,9,2,8,3,7,4,6,5,6}
  */
 public class CompoundArray {
 
@@ -23,8 +29,8 @@ public class CompoundArray {
     }
 
     public static void main(String[] args) {
-        int[] a = {1, 3, 5, 7, 9};
-        int[] b = {2, 4, 6, 8};
-        System.out.println(Arrays.toString(compoundArray(a,b)));
+        int[] a = {1,2,3,4,5,6};
+        int[] b = {9,8,7,6};
+        System.out.println(Arrays.toString(compoundArray(a, b)));
     }
 }
